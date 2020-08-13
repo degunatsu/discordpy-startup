@@ -17,5 +17,25 @@ async def on_command_error(ctx, error):
 async def ping(ctx):
     await ctx.send('pong')
 
+@bot.command()
+async def garen_shout(ctx):
+    await ctx.send('DEMACIAAAAA!!!!!')
+
+@bot.command()
+async def garen_Q(ctx):
+    await ctx.send('突撃ーッ!!!!!')
+
+@bot.command()
+async def garen_W(ctx):
+    await ctx.send('踏みとどまれッ!!!!!')
+
+@bot.command()
+async def garen_E(ctx):
+    await ctx.send('切り開くッ!!!!!')
+
+@bot.command()
+async def garen_R(ctx):
+    await ctx.send('JUSTICEEEEE!!!!!')
+
 
 bot.run(token)
